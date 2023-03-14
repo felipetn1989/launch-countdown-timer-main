@@ -7,20 +7,29 @@
 :root {
   /* ### Primary */
 
-  --Grayish-blue: hsl(237, 18%, 59%);
-  --Soft-red: hsl(345, 95%, 68%);
+  --Grayish-blue: #8486a9;
+  --Soft-red: #fb6087;
 
   /* ### Neutral */
 
   --White: hsl(0, 0%, 100%);
-  --Dark-desaturated-blue: hsl(236, 21%, 26%);
-  --Very-dark-blue: hsl(235, 16%, 14%);
+  --Dark-desaturated-blue: #343650;
+  --Very-dark-blue: #1e1f29;
   --Very-dark-mostly-black-blue: hsl(234, 17%, 12%);
 }
 
 body {
   font-family: "Red Hat Text", sans-serif;
+  background: #1e1f29 url('../images/bg-stars.svg') no-repeat center top/contain;
 }
+
+/* aside {
+  background-image: url('../images/pattern-hills.svg');
+  background-repeat: no-repeat;
+  background-size: 280%;
+  background-position-x: 85%;
+  background-position-y: -2rem;
+} */
 
 .attribution {
   font-size: 0.6875rem;
