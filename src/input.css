@@ -22,8 +22,6 @@
 
 body {
   font-family: "Red Hat Text", sans-serif;
-  background: url("../images/bg-stars.svg") no-repeat center top;
-  background-size: 300%;
 }
 
 .background {
