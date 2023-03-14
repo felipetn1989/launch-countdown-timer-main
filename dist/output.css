@@ -533,6 +533,10 @@ video {
   margin-top: -3rem;
 }
 
+.mt-\[-rem\] {
+  margin-top: -rem;
+}
+
 .flex {
   display: flex;
 }
@@ -555,6 +559,26 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.h-\[9rem\] {
+  height: 9rem;
+}
+
+.h-\[8rem\] {
+  height: 8rem;
+}
+
+.h-\[7rem\] {
+  height: 7rem;
+}
+
+.h-\[6rem\] {
+  height: 6rem;
+}
+
+.h-\[5rem\] {
+  height: 5rem;
 }
 
 .w-6 {
