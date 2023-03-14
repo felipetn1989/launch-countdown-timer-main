@@ -18,9 +18,16 @@
   --Very-dark-mostly-black-blue: hsl(234, 17%, 12%);
 }
 
+/* #1e1f29, #231d2b */
+
 body {
   font-family: "Red Hat Text", sans-serif;
-  background: #1e1f29 url('../images/bg-stars.svg') no-repeat center top/contain;
+  background: url('../images/bg-stars.svg') no-repeat center top;
+  background-size: 300%;
+}
+
+.background {
+  background-image: linear-gradient(to bottom, #1e1f29, #231d2b);
 }
 
 /* aside {
