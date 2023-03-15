@@ -24,10 +24,7 @@
 
 body {
   font-family: "Red Hat Text", sans-serif;
-}
-
-.background {
-  background-image: linear-gradient(to bottom, #1e1f29, #231d2b);
+  background-image: linear-gradient(to bottom, #1e1f29, #2F2439);
 }
 
 .number_box {
