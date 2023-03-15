@@ -34,14 +34,6 @@ body {
   background-image: linear-gradient(to bottom, #2c2c44 48%, #343650 48%);
 }
 
-/* aside {
-  background-image: url('../images/pattern-hills.svg');
-  background-repeat: no-repeat;
-  background-size: 280%;
-  background-position-x: 85%;
-  background-position-y: -2rem;
-} */
-
 .attribution {
   font-size: 0.6875rem;
   text-align: center;
