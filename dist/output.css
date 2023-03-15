@@ -573,14 +573,6 @@ video {
   height: 7rem;
 }
 
-.h-\[90\%\] {
-  height: 90%;
-}
-
-.h-full {
-  height: 100%;
-}
-
 .w-1 {
   width: 0.25rem;
 }
@@ -778,6 +770,8 @@ video {
 body {
   font-family: "Red Hat Text", sans-serif;
   background-image: linear-gradient(to bottom, #1e1f29, #2F2439);
+  background-repeat: no-repeat;
+  background-color: #2F2439;
 }
 
 .number_box {
