@@ -806,11 +806,6 @@ body {
   cursor: pointer;
 }
 
-.hover\:text-\[\#fb6087\]:hover {
-  --tw-text-opacity: 1;
-  color: rgb(251 96 135 / var(--tw-text-opacity));
-}
-
 @media (min-width: 640px) {
   .sm\:h-\[unset\] {
     height: unset;
