@@ -1,17 +1,21 @@
 const numberDisplays = document.querySelectorAll(".number_display");
 
-function displayTime() {
-  let date = new Date();
+let target = new Date().getTime() + 1209600000;
 
-  let dateArr = [
-    date.getDate().toString().padStart(2, "0"),
-    date.getHours().toString().padStart(2, "0"),
-    date.getMinutes().toString().padStart(2, "0"),
-    date.getSeconds().toString().padStart(2, "0"),
+function displayTime() {
+  let now = new Date().getTime();
+
+  let distance = target - now;
+
+  let displayArr = [
+    Math.floor(distance / (1000 * 60 * 60 * 24)),
+    Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
+    Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)),
+    Math.floor((distance % (1000 * 60)) / 1000),
   ];
 
   numberDisplays.forEach((display, index) => {
-    display.innerHTML = dateArr[index];
+    display.innerHTML = displayArr[index];
   });
 }
 
