@@ -15,10 +15,12 @@
   --White: hsl(0, 0%, 100%);
   --Dark-desaturated-blue: #343650;
   --Very-dark-blue: #1e1f29;
-  --Very-dark-mostly-black-blue: hsl(234, 17%, 12%);
+  --Very-dark-mostly-black-blue: #191a24;
 }
 
 /* #1e1f29, #231d2b */
+
+/* 2c2c44, #343650 */
 
 body {
   font-family: "Red Hat Text", sans-serif;
@@ -26,6 +28,11 @@ body {
 
 .background {
   background-image: linear-gradient(to bottom, #1e1f29, #231d2b);
+}
+
+.number_box {
+  box-shadow: 0px 9px 0px #00000044;
+  background-image: linear-gradient(to bottom, #2c2c44 48%, #343650 48%);
 }
 
 /* aside {
