@@ -24,9 +24,13 @@
 
 body {
   font-family: "Red Hat Text", sans-serif;
-  background-image: linear-gradient(to bottom, #1e1f29, #2F2439);
-  background-repeat: no-repeat;
-  background-color: #2F2439;
+  background: url(../images/pattern-hills.svg) bottom center no-repeat,
+    url(../images/bg-stars.svg) no-repeat,
+    linear-gradient(to bottom, #1e1f29, #231d2b);
+  background-size: 329%, 100%;
+  background-position-x: -45rem, 0;
+  background-position-y: 100%, 0;
+  background-color: #2f2439;
 }
 
 .number_box {
@@ -40,4 +44,12 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-size: 100%;
+    background-position-x: 0, 0;
+    background-position-y: 100%, 0;
+  }
 }
